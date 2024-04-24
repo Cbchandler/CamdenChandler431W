@@ -183,7 +183,7 @@ while True:
         
             if choice == 1:
                 Column = input("What Would You Like The Sum Of?: ")
-                valid_columns = ['game_price', 'achievement_count', 'appid']  # Add all valid column names here
+                valid_columns = ['game_price', 'achievement_count', 'appid'] 
                 if Column not in valid_columns:
                     print("Invalid column name!")
                 else:
@@ -194,7 +194,7 @@ while True:
         
             elif choice == 2:
                 Column = input("What Would You Like The Average Of?: ")
-                valid_columns = ['game_price', 'achievement_count', 'appid']  # Add all valid column names here
+                valid_columns = ['game_price', 'achievement_count', 'appid'] 
                 if Column not in valid_columns:
                     print("Invalid column name!")
                 else:
@@ -205,7 +205,7 @@ while True:
         
             elif choice == 3:
                 Column = input("What Would You Like to Count?: ")
-                valid_columns = ['game_price', 'achievement_count', 'appid', "game_name", "Genre"]  # Add all valid column names here
+                valid_columns = ['game_price', 'achievement_count', 'appid', "game_name", "Genre"]  
                 if Column not in valid_columns:
                     print("Invalid column name!")
                 else:
@@ -216,7 +216,7 @@ while True:
         
             elif choice == 4:
                 Column = input("What Would You Like The Min Value of?: ")
-                valid_columns = ['game_price', 'achievement_count', 'appid']  # Add all valid column names here
+                valid_columns = ['game_price', 'achievement_count', 'appid']  
                 if Column not in valid_columns:
                     print("Invalid column name!")
                 else:
@@ -227,7 +227,7 @@ while True:
         
             elif choice == 5:
                 Column = input("What Would You Like The Max Value of?: ")
-                valid_columns = ['game_price', 'achievement_count', 'appid']  # Add all valid column names here
+                valid_columns = ['game_price', 'achievement_count', 'appid']
                 if Column not in valid_columns:
                     print("Invalid column name!")
                 else:
